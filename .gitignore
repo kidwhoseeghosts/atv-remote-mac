@@ -1,0 +1,19 @@
+# Xcode / сборка
+build/
+dist/
+DerivedData/
+*.xcodeproj/
+xcuserdata/
+*.xcuserstate
+# генерируется XcodeGen из project.yml (источник правды — project.yml)
+ATVRemote.xcodeproj/
+Config/
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+# macOS / редакторы
+.DS_Store
+.idea/
+.vscode/

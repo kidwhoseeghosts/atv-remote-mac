@@ -1,0 +1,5 @@
+# Зависимости демона atvd.py. Устанавливаются в venv:
+#   ~/Library/Application Support/ATVRemote/venv
+pyatv==0.18.0
+# srptools 2.0.0 ломает сопряжение pyatv (проверено) — держим 1.x
+srptools<2
